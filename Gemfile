@@ -9,4 +9,3 @@ gem 'activerecord'
 gem 'sinatra-activerecord'
 gem 'sinatra-reloader', '~> 1.0'
 gem 'rake', '~> 12.3', '>= 12.3.2'
-# gem 'sqlite3', groups: %w(test development), require: false
