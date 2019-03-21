@@ -23,23 +23,8 @@ ActiveRecord::Schema.define(version: 2019_03_21_065731) do
     t.integer "user_id", null: false
   end
 
-  create_table "todoes", force: :cascade do |t|
-    t.string "title", null: false
-    t.text "description"
-    t.string "status", null: false
-    t.string "password", null: false
-    t.integer "user_id", null: false
-  end
-
   create_table "user", force: :cascade do |t|
     t.string "name", null: false
-    t.text "description"
-    t.string "email", null: false
-    t.string "password", null: false
-  end
-
-  create_table "users", force: :cascade do |t|
-    t.string "name", limit: 32, null: false
     t.text "description"
     t.string "email", null: false
     t.string "password", null: false
