@@ -1,6 +1,8 @@
 require 'sinatra'
 require 'sinatra/reloader'
 
+use Rack::PostBodyContentTypeParser
+
 get '/' do
   'hello'
 end

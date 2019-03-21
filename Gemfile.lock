@@ -22,6 +22,8 @@ GEM
     mustermann (1.0.3)
     pg (1.1.4)
     rack (2.0.6)
+    rack-contrib (2.1.0)
+      rack (~> 2.0)
     rack-protection (2.0.5)
       rack
     rake (12.3.2)
@@ -53,6 +55,7 @@ PLATFORMS
 DEPENDENCIES
   activerecord
   pg
+  rack-contrib
   rake (~> 12.3, >= 12.3.2)
   sinatra-activerecord
   sinatra-reloader (~> 1.0)
